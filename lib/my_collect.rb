@@ -1,14 +1,8 @@
 def my_collect(languages)
   
-end 
-end 
+languages.each do |language| 
+  name.split(" ").first
 
 
-def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
+end 
 end
