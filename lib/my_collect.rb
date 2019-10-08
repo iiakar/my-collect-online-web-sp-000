@@ -1,13 +1,8 @@
 def my_collect(languages)
   
-languages.each do |language| 
-  a = language.upcase
-  return a 
-  a.each do |b| 
-    b.split(" ").first
-   return b 
-   yield(b)
- 
-end 
-end 
-end
+empty_array = []
+   counter = 0
+  empty_array.each do |x|
+    counter += 1
+    end
+  end 
