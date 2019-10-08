@@ -6,4 +6,5 @@ empty_array = []
     empty_array << x.upcase
     counter += 1
     end
+    empty_array
   end 
