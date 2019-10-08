@@ -9,4 +9,5 @@ new_array = []
     counter += 1
     end
     empty_array
+    new_array
   end 
