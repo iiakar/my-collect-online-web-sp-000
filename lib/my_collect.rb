@@ -6,6 +6,7 @@ languages.each do |language|
   a.each do |b| 
     b.split(" ").first
    return b 
+   yield(b)
  
 end 
 end 
