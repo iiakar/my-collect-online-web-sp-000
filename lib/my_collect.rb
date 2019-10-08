@@ -2,7 +2,7 @@ def my_collect(languages)
   
 empty_array = []
    counter = 0
-  empty_array.each do |x|
+  languages.each do |x|
     empty_array << x.upcase
     counter += 1
     end
