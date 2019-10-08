@@ -5,7 +5,7 @@ languages.each do |language|
   return a 
   a.each do |b| 
     b.split(" ").first
-  # return b 
+   return b 
  
 end 
 end 
