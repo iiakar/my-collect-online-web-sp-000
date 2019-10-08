@@ -1,3 +1,4 @@
 def my_collect(languages)
   i = 0
-counter
+  my_new_collection = []
+  while i < langu
