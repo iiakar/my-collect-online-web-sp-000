@@ -1,7 +1,8 @@
 def my_collect(languages)
   
 languages.each do |language| 
-  puts language.upcase
+   language.upcase
+   languages.split(" ").first
  
 
 end 
