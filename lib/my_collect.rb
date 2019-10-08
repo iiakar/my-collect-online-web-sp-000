@@ -1,6 +1,6 @@
 def my_collect(languages)
   
-empty_array = []
+capitalized_array = []
 new_array = []
    counter = 0
   languages.each do |x|
@@ -8,6 +8,6 @@ new_array = []
     new_array << x.split(" ").first
     counter += 1
     end
-    empty_array
+    capitalized_array
     new_array
   end 
