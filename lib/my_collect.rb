@@ -3,7 +3,8 @@ def my_collect(languages)
 languages.each do |language| 
   a = language.upcase
   return a 
-  # b = a.split(" ").first
+  a.each do |b| 
+    b.split(" ").first
   # return b 
  
 
