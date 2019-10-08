@@ -9,5 +9,5 @@ new_array = []
     counter += 1
     end
     capitalized_array
-    new_array.upcase
+    new_array
   end 
