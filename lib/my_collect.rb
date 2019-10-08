@@ -7,6 +7,6 @@ languages.each do |language|
     b.split(" ").first
   # return b 
  
-
+end 
 end 
 end
