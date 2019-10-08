@@ -1,7 +1,14 @@
 def my_collect(languages)
-  languages.each do |language|
-    puts language.upcase
+  
 end 
 end 
 
 
+def hello(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+end
